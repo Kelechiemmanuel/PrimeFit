@@ -87,9 +87,7 @@ form.addEventListener("submit", function (event) {
         dataArray.push({ service: service.value });
     }
     if (valid) {
-        setInterval(() => {
              successMessage.textContent = "Form submitted successfully!";
-        }, 3000);
         setInterval(() => {
             successMessage.textContent = "";
         }, 3000);
