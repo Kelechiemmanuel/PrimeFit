@@ -173,7 +173,7 @@ iframe{
   border-right: 4px solid #fff;
   border-bottom: 4px solid #fff;
   transform: rotate(45deg);
-  margin: 40px auto;
+  /* margin: 40px; */
   animation: bounce 0.8s infinite alternate;
 }
 
