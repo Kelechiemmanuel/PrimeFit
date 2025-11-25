@@ -69,7 +69,7 @@ form.addEventListener("submit", function (event) {
 
     if (market.value.trim() === "") {
         valid = false;
-        marketError.textContent = "Add your category";
+        marketError.textContent = "How can we help you";
         setInterval(() => {
             marketError.textContent = "";
         }, 3000);
@@ -108,4 +108,4 @@ function hideIconsOnInput(inputId, iconId) {
 hideIconsOnInput("name", "iconName");
 hideIconsOnInput("email", "iconEmail");
 hideIconsOnInput("phone", "iconPhone");
-hideIconsOnInput("market", "iconMarket");
+// hideIconsOnInput("market", "iconMarket");
